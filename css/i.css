@@ -17,7 +17,8 @@ a {
 header {
   padding: 1rem 0.3rem;
   font-size: 1.4rem;
-  color: skyblue;
+  /* color: skyblue; */
+  color: #59889C;
   font-weight: 700;
 }
 
@@ -168,7 +169,8 @@ article {
   background-color: lightpink;
 }
 
-.color-match {
+/* .color-match { */
+.xx {
   font-weight: bold;
 }
 

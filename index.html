@@ -2,7 +2,8 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <meta http-equiv="Content-type" content="text/html;charset=utf-8">
+  <meta http-equiv="Content-type" content="text/html;charset=utf-8" />
+  <meta headers="X-Content-Type-Options:nosniff"/> <!-- FIXME -->
   <link rel="stylesheet" href="css/i.css" />
 </head>
 
@@ -28,14 +29,14 @@
               <input type="radio" id="input-method-iast" name="input-method" class="input-method" value="iast"/>
               <label for="input-method-iast">IAST</label>
             </div>
-            <div class="group">
-              <input type="radio" id="input-method-velthuis" name="input-method" class="input-method inactive" value="velthuis" disabled/>
-              <label for="input-method-velthuis" class="inactive">Velthuis</label>
-            </div>
-            <div class="group">
-              <input type="radio" id="input-method-none" name="input-method" class="input-method" value="none"/>
-              <label for="input-method-none" class="">none (diacritcs insensitive)</label>
-            </div>
+            <!-- <div class="group"> -->
+            <!--   <input type="radio" id="input-method-velthuis" name="input-method" class="input-method inactive" value="velthuis" disabled/> -->
+            <!--   <label for="input-method-velthuis" class="inactive">Velthuis</label> -->
+            <!-- </div> -->
+            <!-- <div class="group"> -->
+            <!--   <input type="radio" id="input-method-none" name="input-method" class="input-method" value="none"/> -->
+            <!--   <label for="input-method-none" class="">none (diacritcs insensitive)</label> -->
+            <!-- </div> -->
           <div class="group">
             <input type="radio" id="input-method-english" name="input-method" class="input-method" value="english"/>
             <label for="option-fulltext">English</label>
@@ -99,7 +100,6 @@
   <script src="dict/letter.ranges.js"></script>
   <script src="dict/wordlist.js"></script>
   <script src="dict/mwsd.js"></script>
-  <!-- <script src="js/devanagariAlphabeticalSort.js"></script> -->
   <script src="js/i.js"></script>
 </body>
 </html>
